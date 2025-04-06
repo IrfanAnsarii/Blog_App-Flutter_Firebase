@@ -18,7 +18,7 @@ class _MyBlogScreenState extends State<MyBlogScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My Blogs'),
-
+      ),
       body: StreamBuilder(
         stream:
             FirebaseFirestore.instance
@@ -44,7 +44,7 @@ class _MyBlogScreenState extends State<MyBlogScreen> {
 
           return SizedBox();
         },
-      ),)
+      ),
     );
 
   }
