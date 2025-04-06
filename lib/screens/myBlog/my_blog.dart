@@ -44,7 +44,8 @@ class _MyBlogScreenState extends State<MyBlogScreen> {
 
           return SizedBox();
         },
-      ),
+      ),)
     );
+
   }
 }
